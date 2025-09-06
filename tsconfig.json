@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             // Modern JavaScript output
+    "module": "CommonJS",           // Node.js modules
+    "strict": true,                 // Enable basic type checks
+    "esModuleInterop": true,        // For importing commonjs modules
+    "skipLibCheck": true,           // Skip checking node_modules
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist"              // Compiled JS files (optional)
+  },
+  "include": ["tests/**/*.ts", "pages/**/*.ts", "utils/**/*.ts"],
+  "exclude": ["node_modules"]
+}
